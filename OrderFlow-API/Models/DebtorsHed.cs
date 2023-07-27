@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace OrderFlow.Api.Models;
+
+public partial class DebtorsHed
+{
+    public string CustomerCode { get; set; } = null!;
+
+    public int? RYear { get; set; }
+
+    public int? RMonth { get; set; }
+
+    public decimal? Balance { get; set; }
+
+    public string? Category { get; set; }
+
+    public DateTime? DataDate { get; set; }
+}
